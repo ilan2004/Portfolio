@@ -3,6 +3,7 @@ import projImg2 from '../../assets/img/project-img2.png';
 import projImg3 from '../../assets/img/project-img3.png';
 import whetrip from '../../assets/img/whetrip.png';
 import hertz from '../../assets/img/hertz.png';
+import Baggi from '../../assets/img/Baggi.png';
 let all_projects =
 [
     {
@@ -16,9 +17,9 @@ let all_projects =
         imgUrl: hertz,
     },
     {
-        title: "Whetrip",
-        description: ' Design & Develpoment',
-        imgUrl: projImg3,
+        title: "Baggi",
+        description: 'E-commerce',
+        imgUrl: Baggi,
     }
 ]
 export default all_projects;
