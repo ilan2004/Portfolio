@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './App.css';
 import Navbars from './Components/Navbar/Navbar';
@@ -9,26 +8,20 @@ import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Rotate from './Components/Trial/Trial';
-
+import { BrowserRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function App() {
-  
-
   return (
 
-    <div className="App">
-      
-      
-   
-        <Navbars/>
-        <Banner/>
-        <Skills/>
-        <Projects/>
-        <Contact/>
-        <Footer/>
-
-    </div>
-
+      <div className="App">
+        <Navbars />
+        <Banner />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
   );
 }
 

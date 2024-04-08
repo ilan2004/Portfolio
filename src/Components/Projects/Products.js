@@ -9,17 +9,20 @@ let all_projects =
     {
         title: "Whetrip",
         description: ' VR PROJECT ',
-        imgUrl:whetrip
+        imgUrl:whetrip,
+        redirect:'https://whetripp.netlify.app/'
     },
     {
         title: "HertzEv",
         description: ' Client Work',
         imgUrl: hertz,
+        redirect:'https://hertzev.netlify.app/'
     },
     {
         title: "Baggi",
         description: 'E-commerce',
         imgUrl: Baggi,
+        redirect:'https://baggi.netlify.app/'
     }
 ]
 export default all_projects;

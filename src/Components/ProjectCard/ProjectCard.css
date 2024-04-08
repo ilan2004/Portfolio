@@ -131,9 +131,10 @@
   .proj-imgbx{
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
   .imaged{
     height:100%;
-   
+   cursor: pointer;
     width:100%;
   }
