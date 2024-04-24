@@ -5,14 +5,15 @@ import navIcon1 from '../../assets/img/nav-icon1.svg';
 import navIcon2 from '../../assets/img/nav-icon2.svg';
 import navicon3 from '../../assets/img/nav-icon3.svg';
 import {Col,Row,Container} from 'react-bootstrap';
- const Footer = () => {
+ import './Footer.css'
+const Footer = () => {
   return (
     <footer className='footer'>
         <Container>
             <Row className="align-items-center">
 
                 <Col sm={6}>
-                    <img src={logo}/>
+                <h3 className='log-dev'>ILAN.dev</h3>
 
                 </Col>
                 <Col sm={6} className= "text-center text-sm-end">

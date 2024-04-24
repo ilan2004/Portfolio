@@ -3,7 +3,7 @@ import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import all_projects from './Products';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-
+import './Projects.css';
 const Projects = () => {
   return (
     <Router> {/* Wrap your component with Router */}

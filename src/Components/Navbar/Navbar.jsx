@@ -8,6 +8,7 @@ import navIcon1 from '../../assets/img/nav-icon1.svg';
 import navIcon2 from '../../assets/img/nav-icon2.svg';
 import navicon3 from '../../assets/img/nav-icon3.svg';
 import navicon4 from '../../assets/img/whatsapp.svg';
+import Header from './Header';
 const Navbars = () => {
 
   const [activeLink, setActiveLink] = useState('home');
@@ -58,6 +59,7 @@ const Navbars = () => {
             <button className='vvd' onClick={()=> console.log('connect')}><span>Let's Connect</span></button> 
           </span>
           </Navbar.Collapse>
+          <Header/>
         </Container>
       </Navbar>
       
