@@ -27,6 +27,7 @@
   }
   .project .nav.nav-pills .nav-item {
     width: 33.33333%;
+    font-size: 1rem;
   }
   .project .nav.nav-pills .nav-link {
     background-color: transparent;
@@ -138,5 +139,14 @@
     height:100%;
    cursor: pointer;
     width:100%;
+  }
+  @media (max-width: 768px) {
+    .proj-imgbx{
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      color: #fff;
+      width: 100%;
+    }
   }
   

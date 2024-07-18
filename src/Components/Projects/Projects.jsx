@@ -13,7 +13,7 @@ const Projects = () => {
             <Col>
               {/* Your existing content */}
               <h2>Projects</h2>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam odit, minima aut omnis explicabo nisi tempore at fuga ea, eum vero reiciendis illum illo quaerat asperiores qui iste amet rem?</p>
+              <p>Projects Made for Hackathons and Freelance</p>
               <Tab.Container id="projects-tabs" defaultActiveKey='first'>
                 <Nav variant="pills" defaultActiveKey="nav-pills mb-5 justify-content-center align-items-center" id='pills-tab'>
                   <Nav.Item>

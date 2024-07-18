@@ -42,7 +42,7 @@ import {Row , Col} from 'react-bootstrap';
                     <h2>
                         Skills
                     </h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea architecto,<br></br> nostrum sunt mollitia provident nihil. Quas dolor a eos itaque eligendi voluptatem, fugit fuga officia nemo facere reiciendis assumenda voluptate!</p>
+                    <p>Skills Acquired from Online courses and University</p>
                     <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                         <div className='item'>
                             <img src={html} alt="image"/>
