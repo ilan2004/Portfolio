@@ -16,7 +16,7 @@ let all_projects = [
         role3: 'Real-time'
     },
     {
-        title: "HertzEv",
+        title: "DionPower",
         description: 'Lithium Battery Repair',
         imgUrl: hertz,
         redirect: 'http://dionpower.in/',
