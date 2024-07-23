@@ -52,9 +52,9 @@ const Navbars = () => {
             <div className="social-icon">
                 <a href='#'><img src={navIcon1} alt=''/></a>
                 <a href='#'><img src={navIcon2} alt=''/></a>
-                <a href='#'><img src={navicon4} alt=''/></a>
+                <a href='https://wa.me/917034926395'><img src={navicon4} alt=''/></a>
             </div>
-            <button className='vvd' onClick={()=> console.log('connect')}><span>Let's Connect</span></button> 
+            <button href='https://wa.me/917034926395' className='vvd' onClick={()=> console.log('connect')}><span>Let's Connect</span></button> 
           </span>
           </Navbar.Collapse>
         </Container>
